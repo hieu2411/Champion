@@ -1,0 +1,101 @@
+{
+    "player": {
+        "TenCauThu": "",
+        "NgaySinh": "",
+        "LoaiCauThu": "",
+        "ThoiGianGiaNhap": "",
+        "ThoiGianKetThuc": "",
+        "DoiHienTai": "",
+        "TongBanThang:": ""
+    },
+    "SanBong": {
+        "TenSanBong": "",
+        "ViTri": ""
+    },
+    "DoiBong": {
+        "TenDoiBong": "",
+        "SanBong": "ID",
+        "DanhSachCauThu": [
+            {
+                "player1": "ID"
+            },
+            {
+                "player2": "ID"
+            }
+        ]
+    },
+    "TranDau": {
+        //Đội 1 là chủ nhà
+        "DoiBong1": "ID",
+        "DoiBong2": "ID",
+        "ThoiGian": "",
+        "DanhSachBanThang": [
+            {
+                "CauThuGhiBan": "ID",
+                "ThoiDiem": "",
+                "LoaiBanThang": ""
+            }
+        ]
+    },
+    "LichThiDau": [
+        {
+            "VongBang": [
+                {
+                    "TranDau1:": "ID"
+                },
+                {
+                    "TranDau2": "ID"
+                }
+            ]
+        },
+        {
+            "TuKet": [
+                {
+                    "TranDau1:": "ID"
+                },
+                {
+                    "TranDau2": "ID"
+                }
+            ]
+        },
+        {
+            "BanKet": [
+                {
+                    "TranDau1:": "ID"
+                },
+                {
+                    "TranDau2": "ID"
+                }
+            ]
+        },
+        {
+            "ChungKet": {
+                "TranDau": "ID"
+            }
+        }
+    ],
+    "BangXepHang": [
+        {
+            "DoiBong": "ID",
+            "Rank": "",
+            "MP": "",
+            "D": "",
+            "L": "",
+            "GF": "" /*số bàn thắng*/,
+            "GA": "",
+            "GD": "" /*hiệu số*/,
+            "Pts": "" /*tổng điểm*/
+        },
+        {
+            "DoiBong": "ID",
+            "Rank": "",
+            "MP": "",
+            "D": "",
+            "L": "",
+            "GF": "",
+            "GA": "",
+            "GD": "",
+            "Pts": ""
+        }
+    ]
+}
